@@ -70,7 +70,7 @@ local function TextSetColor(instance)
 end
 
 local ScreenGui = Create("ScreenGui", CoreGui, {
-  Name = "Blxb library"
+  Name = "Aurora library"
 })
 
 ScreenFind = CoreGui:FindFirstChild(ScreenGui.Name)
@@ -189,17 +189,17 @@ function MakeNotifi(Configs)
 end
 
 function MakeWindow(Configs)
-  local title = Configs.Hub.Title or "Blxb Hub"
-  local Anim_Title = Configs.Hub.Animation or "By Bblxby"
+  local title = Configs.Hub.Title or "Aurora Hub"
+  local Anim_Title = Configs.Hub.Animation or "By Aurora"
   
   local KeySystem = Configs.Key.KeySystem or false
-  local KeyTitle = Configs.Key.Title or "Blxb | Key System"
-  local KeyDescription = Configs.Key.Description or ".-."
-  local KeyKey = Configs.Key.Keys or {"123", "321"}
+  local KeyTitle = Configs.Key.Title or "Aurora | Key System"
+  local KeyDescription = Configs.Key.Description or "i dont know"
+  local KeyKey = Configs.Key.Keys or {"Aurora-v2", "Aurora-v1"}
   local KeyLink = Configs.Key.KeyLink or ""
   local KeyNotifications = Configs.Key.Notifi.Notifications or true
   local KeyNotSuccess = Configs.Key.Notifi.Incorrectkey or "Incorrect Key!"
-  local KeySuccess = Configs.Key.Notifi.CorrectKey or "Correct Key, Loading the Hub..."
+  local KeySuccess = Configs.Key.Notifi.CorrectKey or "Correct Key, Loading..."
   local KeyCopyKeyLink = Configs.Key.Notifi.CopyKeyLink or "Copied to Clipboard!"
   
   if KeySystem then
